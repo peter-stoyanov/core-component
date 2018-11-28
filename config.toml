@@ -1,0 +1,45 @@
+# Base config for your site
+baseURL = "https://peter-stoyanov.github.io/" # Make sure to end baseurl with a '/'
+languageCode = "en-us"
+title = "coreComponent"
+theme = "hugo-lamp"
+googleAnalytics = "UA-130004310-1"
+
+author = "Petar Stoyanov"
+# Shown in the side menu
+copyright = "&copy; 2018. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+# [[menu.main]]
+#   name = "Hugo"
+#   weight = 1
+#   identifier = "hugo"
+#   url = "/hugo/"
+# [[menu.main]]
+#   name = "AMP Project"
+#   weight = 2
+#   identifier = "amp"
+#   url = "/amp/"
+# [[menu.main]]
+#   name = "Tags"
+#   weight = 3
+#   identifier = "tags"
+#   url = "/tags/"
+
+  [params]
+    subtitle = "A blog about software and tech"
+    author = "Petar Stoyanov"                     # Your name
+    logo = "/images/octocat.png"                  # Logo
+    description = "A blog about software and tech"          # Meta description tag
+    paginate = 10
+
+    # SEO configs
+    seotitle = "Hugo Blog Title (SEO Version)"                  # Overwrite site title for SEO purpose
+    googleSiteVerification = "google_site_verification_code"    # Google Webmaster
+    msValidate = "bing_site_verification_code"                  # Bing Webmaster
+
+    # Social networks
+    email = "pesho.stoyanov@gmail.com"
+    github = "peter-stoyanov"
+    linkedin = "peshostoyanov"
