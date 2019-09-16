@@ -1,0 +1,57 @@
+baseURL = "https://peter-stoyanov.github.io"
+title = "Core component"
+theme = "dream-plus"
+paginate = 6
+enableRobotsTXT = true
+disqusShortname = "peshostoyanov"
+
+#Skip building these files
+ignoreFiles = ["content/404.md", "content/about.md", "content/cards/\\.*"]
+
+#Syntax highlighting
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsOptions = "linenos=table"
+
+#Enable Hugo Emoji Conversion
+enableEmoji=true
+
+[params]
+	#Favicon for site
+	favicon = "/img/defaultFav.ico"
+
+	#Set whether you're hosting "cards" or "post"
+	contentType = "posts"
+
+	siteStartYear = 2018
+
+	[params.author]
+		name = "Petar Stoyanov"
+		description = "A blog about software development"
+		avatar = "https://raw.githubusercontent.com/UtkarshVerma/utkarshverma.github.io/source/static/images/avatar.jpg"
+		motto = "There should be a simple way to do it."
+
+	[params.features]
+		#Enable Twitter Emoji
+		twitterEmoji = true
+		#Enable Table of Contents
+		toc = true
+		#Enable share card
+		shareCard = true
+		#Use custom CSS
+		customCSS = ["https://cdn.rawgit.com/UtkarshVerma/hugo-dream-plus/ae11561d/exampleSite/static/css/highlight.css"]
+
+	#Tags settings
+	[params.tags]
+		enabled = true
+
+	#Categories settings
+	[params.categories]
+		enabled = true
+
+[social]
+	email = "pesho.stoyanov@gmail.com"
+	github = "peter-stoyanov"
+	stackoverflow = ""
+	medium = ""
+	twitter = ""
